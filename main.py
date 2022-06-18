@@ -110,7 +110,7 @@ if __name__ == '__main__':
     childspeak_words_dict = dict()
 
     # Write data to output file
-    with open("output/Output.txt", "w") as text_file:
+    with open("output/Output.txt", mode="w", encoding='utf-8') as text_file:
         for word in data_list:
             # Create a dictionary with children's analogue of the words
             childspeak_form_of_word = convert_to_childspeak(word)
