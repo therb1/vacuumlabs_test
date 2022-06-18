@@ -128,4 +128,4 @@ if __name__ == '__main__':
             # Counting analogues of words
             childspeak_form_of_word = convert_to_childspeak(word)
             word_analogues = len(childspeak_words_dict.get(childspeak_form_of_word))
-            text_file.write(f"{word} {word_analogues - 1} \n")
+            text_file.write(f"{word} {word_analogues - 1}\n")
